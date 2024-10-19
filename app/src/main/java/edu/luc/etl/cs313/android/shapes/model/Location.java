@@ -5,7 +5,7 @@ package edu.luc.etl.cs313.android.shapes.model;
  */
 public class Location implements Shape {
 
-    protected final int x, y;
+    protected int x, y;
 
     protected final Shape shape;
 
@@ -25,6 +25,13 @@ public class Location implements Shape {
 
     public int getY() {
         return y;
+    }
+
+    public void setX(final int x) {
+        this.x = x;
+    }
+    public void setY(final int y) {
+        this.y = y;
     }
 
     @Override

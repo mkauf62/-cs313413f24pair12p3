@@ -86,7 +86,6 @@ public class Draw implements Visitor<Void> {
             pts[ptsIndex+1] = p.getY();
             ptsIndex += 2;
         }
-
         canvas.drawLines(pts, paint);
         return null;
     }
